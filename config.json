@@ -1,0 +1,34 @@
+{
+    "service": "eventhandler",
+
+    "rabbit": {
+        "host": "localhost",
+        "port": 5672,
+        "user": "rabbitmq",
+        "password": "rabbitmq1!",
+        "vhost": "amelia",
+        "heartbeat": 60,
+    
+        "policies": "ha.",
+        "exchange": {
+            "name": "ameliaExchange",
+            "type": "topic"
+        },
+        "queue": {
+            "name": "eventHandlerQueue",
+            "arguments": {
+                "x-dead-letter-exchange": "timeout-exchange",
+                "x-dead-letter-routing-key": "consumer-timeout",
+                "x-message-ttl": 5000,
+                "x-expires": 200000
+            }
+        },
+        "bind" : {
+            "key": "amelia.eventHandler",
+            "option": {
+                "uid": "",
+                "accessTime": "yyyy-mm-dd hh:MM:ss"
+            }
+        }
+    }
+}

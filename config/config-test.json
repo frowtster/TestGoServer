@@ -1,0 +1,6 @@
+{
+    "service": "test",
+
+    "listenHost": "localhost",
+    "listenPort": 8080
+}
