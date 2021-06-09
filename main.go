@@ -2,9 +2,9 @@ package main
 
 import (
 	"fmt"
-	"tnh-simple-server/proc_EventHandler"
-	"tnh-simple-server/proc_Test"
-	"tnh-simple-server/t_util"
+	"my-simple-server/proc_EventHandler"
+	"my-simple-server/proc_Test"
+	"my-simple-server/t_util"
 )
 
 func main() {

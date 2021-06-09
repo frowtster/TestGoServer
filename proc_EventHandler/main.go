@@ -3,9 +3,9 @@ package proc_EventHandler
 import (
 	"encoding/json"
 	"fmt"
+	"my-simple-server/t_util"
 	"os"
 	"strconv"
-	"tnh-simple-server/t_util"
 
 	"github.com/streadway/amqp"
 )

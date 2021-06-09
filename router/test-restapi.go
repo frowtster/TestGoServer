@@ -2,9 +2,9 @@ package router
 
 import (
 	"fmt"
+	"my-simple-server/t_util"
 	"net/http"
 	"net/http/httputil"
-	"tnh-simple-server/t_util"
 
 	"github.com/julienschmidt/httprouter"
 	"github.com/sirupsen/logrus"

@@ -2,7 +2,7 @@ all: deps clean build
 
 init:
 	rm -f go.mod
-	go mod init tnh-simple-server
+	go mod init my-simple-server
 	go mod tidy
 	go mod verify
 

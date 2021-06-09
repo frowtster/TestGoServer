@@ -1,4 +1,4 @@
-module tnh-simple-server
+module my-simple-server
 
 go 1.16
 

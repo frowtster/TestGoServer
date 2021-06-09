@@ -3,10 +3,10 @@ package proc_Test
 import (
 	"encoding/json"
 	"fmt"
+	"my-simple-server/router"
+	"my-simple-server/t_util"
 	"net/http"
 	"os"
-	"tnh-simple-server/router"
-	"tnh-simple-server/t_util"
 )
 
 type ConfigTest struct {
