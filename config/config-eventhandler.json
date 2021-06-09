@@ -6,12 +6,12 @@
         "port": 8080,
         "user": "rabbitmq",
         "password": "rabbitmq",
-        "vhost": "amelia",
+        "vhost": "testvhost",
         "heartbeat": 60,
     
         "policies": "ha.",
         "exchange": {
-            "name": "ameliaExchange",
+            "name": "testExchange",
             "type": "topic"
         },
         "queue": {

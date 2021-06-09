@@ -6,12 +6,12 @@
         "port": 5672,
         "user": "rabbitmq",
         "password": "rabbitmq1!",
-        "vhost": "amelia",
+        "vhost": "testvhost",
         "heartbeat": 60,
     
         "policies": "ha.",
         "exchange": {
-            "name": "ameliaExchange",
+            "name": "testExchange",
             "type": "topic"
         },
         "queue": {
@@ -24,7 +24,7 @@
             }
         },
         "bind" : {
-            "key": "amelia.eventHandler",
+            "key": "test.eventHandler",
             "option": {
                 "uid": "",
                 "accessTime": "yyyy-mm-dd hh:MM:ss"
